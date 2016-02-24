@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestInitialTimestamp(t *testing.T) {
-	val := InitialAction("actions.txt", true)
+	val := InitialAction("data/actions.txt", true)
 	if val != 1412845504561 {
 		t.Fatalf("Expected 1141284550456 but got %d", val)
 	}

@@ -51,6 +51,6 @@ func InitialAction(f string, action bool) int {
 }
 
 func FirstEpisodeDuration(initial int) int {
-	firstEpisode := InitialAction("besouroEpisodes.txt", false)
+	firstEpisode := InitialAction("data/besouroEpisodes.txt", false)
 	return firstEpisode - initial
 }
